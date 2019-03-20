@@ -21,14 +21,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnGreen(_ sender: Any) {
-        backRed.isHidden = true
+        //backRed.isHidden = true
+        backRed.alpha = 0.5
     }
     @IBAction func btnBlue(_ sender: Any) {
-        backBlue.isHidden = true
+        //backBlue.isHidden = true
+        backBlue.alpha = 0.5
     }
     
     @IBAction func btnRed(_ sender: Any) {
-        backGreen.isHidden = true
+        //backGreen.isHidden = true
+        backGreen.alpha = 0.5
     }
 }
 
